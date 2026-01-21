@@ -1,0 +1,54 @@
+Analyse der Grippesaison
+zur besseren Personalplanung
+im Gesundheitswesen
+
+1. Projektübersicht
+Ziel
+Unterstützung einer Agentur für medizinisches Personal, die Kliniken und Krankenhäusern bei Bedarf Zeitarbeitskräfte zur Verfügung stellt. Die Analyse wird bei der Planung für die Grippesaison helfen, eine Zeit, in der zusätzliche Mitarbeiter dringend benötigt werden. Die Endergebnisse werden Grippetrends untersuchen und wie diese genutzt werden können, um proaktiv den Personalbedarf im ganzen Land zu planen.
+Datenaufbereitung
+Die fünf Datensätze (Sterblichkeit, Arztbesuche, Labortests, Impfungen, Bevölkerungsstruktur) wurden bereinigt, fehlende Werte identifiziert und Duplikate entfernt.
+Die Daten wurden bereinigt, Duplikate entfernt und fehlende Werte geprüft, um die Datenqualität sicherzustellen (insgesamt ≈ 79,7 %).
+Für die Vergleichbarkeit der Bundesstaaten wurden standardisierte Kennzahlen pro 100.000 Einwohner berechnet.
+
+Indikatorenerstellung
+Basierend auf den wichtigsten Einflussgrößen auf die Grippebelastung (Alter 65+, Impfquoten, saisonale Arztbesuche) wurden einzelne Indizes erstellt und anschließend zu einem gewichteten Gesamtindex zusammengeführt. Der Index dient der Priorisierung von Bundesstaaten für temporären Personaleinsatz.
+Analytische Methoden
+	Deskriptive Statistik zur Identifikation von Trends und Auffälligkeiten
+	Normalisierung der Daten auf pro-100k-Basis
+	Berechnung saisonaler Indizes zur Abbildung von zeitlichen Schwankungen
+	Einfache Prognoselogik zur Schätzung des monatlichen Personalbedarfs bei Annahme von 1.700 Patienten pro Ärzt*in
+
+Visualisierung
+Die Ergebnisse wurden in einer Tableau Story mit 8 interaktiven Dashboards visualisiert. Die Story zeigt regionale Unterschiede, Altersverteilungen, saisonale Schwankungen und priorisierte Handlungsempfehlungen. Besonderes Augenmerk lag auf Transparenz und Datenqualität.
+
+2. Analyse
+Geprüfte Hypothesen
+	Bundesstaaten mit höherem Anteil der Bevölkerung 65+ haben eine stärkere Belastung des Gesundheitssystems während der Grippesaison. (bestätigt)
+	Niedrige Impfquoten bei Kindern korrelieren mit höheren regionalen Arztbesuchen und Mortalitätsraten. (bestätigt)
+	Bundesstaaten mit mehr positiven Influenza-Tests weisen automatisch mehr Arztbesuche für Grippe auf. (nicht bestätigt)
+
+Weitere Erkenntnisse
+	Alterstruktur und Impfquoten zeigten den größten Einfluss auf den Gesamtindex.
+	Die saisonalen Schwankungen in Arztbesuchen variieren stark zwischen Regionen, was eine regionale Priorisierung notwendig macht.
+	Positiv getestete Fälle allein sind kein zuverlässiger Indikator für den tatsächlichen medizinischen Versorgungsdruck.
+
+Ableitung für Indexbildung
+Auf Basis dieser Erkenntnisse wurden die Komponenten des Gesamtindex gewichtet:
+	Altersstruktur: 40 %
+	Impfquote: 35 %
+	Regionale Versorgungskapazität und saisonale Belastung: 25 %
+	Positive Tests wurden nicht direkt in den Index aufgenommen, da die Hypothese nicht bestätigt wurde.
+
+Tools & Skills
+	Excel: Datenaufbereitung, Berechnung von Indizes
+	Tableau: Storytelling, interaktive Dashboards
+	Datenanalyse: Deskriptive Statistik, Normalisierung, einfache Prognoselogik
+	Reporting & Entscheidungsunterstützung: KPI-Definition, evidenzbasierte Handlungsempfehlungen
+
+3. Ergebnisse & Handlungsempfehlungen
+	Erstellung eines interaktiven Dashboards zur Entscheidungsunterstützung für Personalagenturen
+	Ableitung von Regionen mit höchster Priorität für temporären Personaleinsatz
+	Monatliche Schätzung des zusätzlichen Personalbedarfs
+	Reproduzierbarkeit der Analyse: Indizes können jährlich aktualisiert werden
+
+
