@@ -27,6 +27,8 @@ This project analyzes public health and demographic data (CDC, US Census) to ide
 - Early workforce planning for high-risk regions before flu season peaks
 - Targeted vaccination campaigns in regions with low vaccination coverage
 
+https://public.tableau.com/app/profile/faina.kozyrieva/viz/GrippenindenUSA/GrippenindenUSA
+
 ## Tools
 Excel, Tableau
 
